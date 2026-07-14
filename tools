@@ -3,3 +3,13 @@ site:ibm.com
 site: ibm.com -www
 site: ibm.com -research inurl'&"   # this one finds where there are parameters
 site: ibm.com -research intext:login  #check site with login
+
+2. Certificate Transparency
+https://crt.sh/
+https://crt.sh/?q=ezsolutions.co.za
+https://crt.sh/?cn=%.ezsolutions.co.za  #cn stands for common name
+
+3. Discovering Subdomains:
+subfinder -d ezsolutions.co.za 
+ nano ~/.config/subfinder/provider-config.yaml # to add API keys
+
